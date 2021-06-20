@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="display">
+            <div id="display-up"></div>
+            <div id="display-down">0</div>
+        </div>
+
+
+            <div id="keyboard">
+                <div class="keyboard1">
+                    <button class="symbol" onclick="potega()">x<sup>2</sup></button>
+                    <button class="usuwanie" onclick="wyczysc()">CE</button>
+                    <button class="usuwanie" onclick="cofnij()">&larr;</button>
+                    <button class="symbol" onclick="podziel()">/</button>
+                </div>
+                <div class="keyboard2">
+                    <button class="numbers" onclick="siedem()">7</button>
+                    <button class="numbers" onclick="osiem()">8</button>
+                    <button class="numbers" onclick="dziewiec()">9</button>
+                    <button class="symbol" onclick="mnozenie()">*</button>
+                </div>  
+                <div class="keyboard3">
+                    <button class="numbers" onclick="cztery()">4</button>
+                    <button class="numbers" onclick="piec()">5</button>
+                    <button class="numbers" onclick="szesc()">6</button>
+                    <button class="symbol" onclick="odejmij()">-</button>
+                </div>
+                <div class="keyboard4">
+                    <button class="numbers" onclick="jeden()">1</button>
+                    <button class="numbers" onclick="dwa()">2</button>
+                    <button class="numbers" onclick="trzy()">3</button>
+                    <button class="symbol" onclick="dodaj()">+</button>
+                </div>
+                <div class="keyboard5">
+                    <button class="symbol" onclick="pierwiastek()">&radic;</button>
+                    <button class="numbers" onclick="zero()">0</button>
+                    <button class="symbol" onclick="przecinek()">,</button>
+                    <button class="symbol">=</button>
+                </div>
+            </div>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

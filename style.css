@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    width: 100%;
+    min-width: 400px;
+    height: 100vh;
+    min-height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 400px;
+    height: 500px;
+    -webkit-box-shadow: 1px 4px 9px 9px #000000; 
+    box-shadow: 1px 4px 9px 9px #000000;
+}
+
+#display {
+    width: 100%;
+    height: 100px;
+    background-color: #f1faee;
+}
+
+#display-up {
+    width: 100%;
+    height: 50%;
+    padding: 0 5px  2px 0;
+    font-size: 1.5rem;
+    color: #457b9d;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+#display-down {
+    width: 100%;
+    height: 50%;
+    padding: 0 5px  2px 0;
+    font-size: 2rem;
+    color: #1d3557;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#keyboard {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.keyboard1, .keyboard2, .keyboard3, .keyboard4, .keyboard5  {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    width: 25%;
+    height: 100%;
+    border-radius: 0;
+    background-color: #001219;
+    border: 0.1px solid white;
+    font-weight: bold;
+}
+
+.symbol {
+    color: #ca6702;
+}
+
+.usuwanie {
+    color: #ae2012;
+}
+
+.numbers {
+    color: #e9d8a6;
+}
